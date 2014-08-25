@@ -4,8 +4,8 @@
 package demos;
 import java.util.Arrays;
 public class GetBytes_String {
-    public static void main(String[] args) {   
-        
+    public static void main(String[] args) {
+
         String str = "Java";
         byte[] bCode = str.getBytes();
         System.out.println(Arrays.toString(bCode));
